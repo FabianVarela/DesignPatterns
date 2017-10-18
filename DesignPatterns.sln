@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{514CE822-2879-465F-92D2-84475088F276}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{158D9E4D-F837-4516-A980-650C7A8820AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{514CE822-2879-465F-92D2-84475088F276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{514CE822-2879-465F-92D2-84475088F276}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{514CE822-2879-465F-92D2-84475088F276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158D9E4D-F837-4516-A980-650C7A8820AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158D9E4D-F837-4516-A980-650C7A8820AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158D9E4D-F837-4516-A980-650C7A8820AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158D9E4D-F837-4516-A980-650C7A8820AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{843BF955-DA3F-4232-8F65-396D26166A11} = {9F40E285-E6D8-40E1-82BA-4161C3306E88}
 		{1E9F711E-A2FE-454F-847A-36136B871668} = {9F40E285-E6D8-40E1-82BA-4161C3306E88}
 		{514CE822-2879-465F-92D2-84475088F276} = {9F40E285-E6D8-40E1-82BA-4161C3306E88}
+		{158D9E4D-F837-4516-A980-650C7A8820AD} = {9F40E285-E6D8-40E1-82BA-4161C3306E88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3B9973F-9696-4509-A9AD-22329B5B1419}
