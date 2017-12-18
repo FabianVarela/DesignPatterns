@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Creational", "1. Creational", "{06E5F7F1-0B60-4AD9-9CFF-27E5E028F706}"
 EndProject
@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{83C23D44-5A88-437B-B07F-5CB1E359A1E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{5E750DBF-5A0E-43A8-A1DD-52B0490A7DB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{5E750DBF-5A0E-43A8-A1DD-52B0490A7DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{0F0DA3F2-711B-4221-8052-BE43A1E951EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{5E750DBF-5A0E-43A8-A1DD-52B0490A7DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E750DBF-5A0E-43A8-A1DD-52B0490A7DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E750DBF-5A0E-43A8-A1DD-52B0490A7DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0DA3F2-711B-4221-8052-BE43A1E951EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0DA3F2-711B-4221-8052-BE43A1E951EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0DA3F2-711B-4221-8052-BE43A1E951EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0DA3F2-711B-4221-8052-BE43A1E951EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{55D1AAF9-5359-49A4-A6B4-4A2E2884EEAA} = {7370927F-2E68-454C-91BB-3FBD85BDD8BF}
 		{83C23D44-5A88-437B-B07F-5CB1E359A1E8} = {7370927F-2E68-454C-91BB-3FBD85BDD8BF}
 		{5E750DBF-5A0E-43A8-A1DD-52B0490A7DB2} = {7370927F-2E68-454C-91BB-3FBD85BDD8BF}
+		{0F0DA3F2-711B-4221-8052-BE43A1E951EE} = {7370927F-2E68-454C-91BB-3FBD85BDD8BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3B9973F-9696-4509-A9AD-22329B5B1419}
